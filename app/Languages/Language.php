@@ -4,7 +4,7 @@ namespace App\Languages;
 
 abstract class Language
 {
-    // protected $languageName;
+    protected $languageName;
 
     public function name() : string
     {
