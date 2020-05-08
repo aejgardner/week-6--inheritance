@@ -4,8 +4,7 @@ namespace App\Cutlery;
 
 class Spoon
 {
-
-    private $scoops = 0;
+    protected $scoops = 0;
 
     public function scoop() : Spoon
     {
@@ -17,5 +16,4 @@ class Spoon
     {
         return $this->scoops;
     }
-
 }

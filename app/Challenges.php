@@ -29,6 +29,8 @@ class Challenges
         $spoon->scoop()->scoop();
         $runcible->scoop()->scoop();
 
+        var_dump($runcible);
+
         dump(
             $spoon->howManyScoops(), // 2
             $runcible->howManyScoops() // 4
