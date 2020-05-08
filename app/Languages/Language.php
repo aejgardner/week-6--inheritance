@@ -11,5 +11,5 @@ abstract class Language
         return $this->languageName;
     }
 
-    abstract function hello();
+    abstract function hello() : string;
 }

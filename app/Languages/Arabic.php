@@ -6,7 +6,7 @@ class Arabic extends Language
 {
     protected $languageName = "Arabic";
 
-    public function hello()
+    public function hello() : string
     {
         return "مرحبا";
     }
