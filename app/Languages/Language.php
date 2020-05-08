@@ -1,21 +1,15 @@
 <?php
 
-namespace App\Language;
+namespace App\Languages;
 
 abstract class Language
 {
-
-
-    private $name;
+    // protected $languageName;
 
     public function name() : string
     {
-        return $this->name;
+        return $this->languageName;
     }
 
-    abstract function Hello()
-    {
-        
-    }
-
+    abstract function hello();
 }

@@ -1,20 +1,13 @@
 <?php
 
-namespace App\Language;
+namespace App\Languages;
 
-abstract class Arabic extends Language
+class Arabic extends Language
 {
+    protected $languageName = "Arabic";
 
-    private $name;
-
-    public function name() : string
+    public function hello()
     {
-        return $this->name;
+        return "مرحبا";
     }
-
-    public function Hello()
-    {
-        
-    }
-
 }
